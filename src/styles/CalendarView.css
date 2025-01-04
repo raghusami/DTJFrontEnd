@@ -1,0 +1,69 @@
+/* Override default event background and border color */
+.fc .fc-event {
+  background-color: #ffffff !important; /* Your custom event background color */
+  border: none !important; /* Remove default border */
+  color: #000 !important; /* Change event text color */
+}
+
+/* Override today's background highlight */
+.fc .fc-day-today {
+  background-color: #e7f3ee !important; /* Custom color for today */
+}
+
+/* Change hover background color for events */
+.fc .fc-event:hover {
+  background-color: #ffffff !important; /* Custom hover color */
+}
+
+/* Change day number color */
+.fc .fc-daygrid-day-number {
+  color: #454F5B !important; /* Custom day number color */
+}
+
+/* Customize the background of the selected or focused date */
+.fc .fc-highlight {
+  background-color: #F0E68C !important; /* Custom highlight color for selected dates */
+}
+.fc .fc-toolbar-title
+{
+  color: #454F5B !important; /* Custom day number color */
+  font-size:0.875rem !important;
+  font-weight: 700;
+}
+.fc .fc-button
+{
+  padding: 0.3em 0.45em !important;
+}
+.fc .fc-button-primary
+{
+  background-color:#ffffff !important;
+  color:#454F5B  !important;
+  border:none !important;
+}
+.fc .fc-col-header-cell-cushion
+{
+  color:#454F5B  !important;
+}
+.fc .fc-toolbar.fc-header-toolbar
+{
+     margin-bottom: .5em !important;
+}
+.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events
+{
+  min-height:0.3em !important;
+}
+.fc .fc-daygrid-body-natural .fc-daygrid-day-events
+{
+  margin-bottom:0.3em !important;
+}
+.fc .fc-button .fc-icon
+{
+  font-size:1em !important;
+}
+.fc-theme-standard td, .fc-theme-standard th
+{
+  border: 1px solid #e7f3ee !important;
+}
+.fc .fc-scrollgrid{
+  border-collapse: collapse !important;
+}

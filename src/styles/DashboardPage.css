@@ -1,0 +1,47 @@
+/* src/styles/DashboardPage.css */
+
+.container {
+  margin-top: 45px;
+}
+.dashboard-card {
+  padding: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card .MuiTypography-h6 {
+  font-size: 1.25rem; /* Adjust font size for larger screens */
+}
+
+.dashboard-card .MuiTypography-subtitle2 {
+  font-size: 0.875rem; /* Smaller font size for labels */
+}
+
+.dashboard-card .MuiTypography-body2 {
+  font-size: 0.75rem; /* Font size for additional text */
+}
+
+.tab-content {
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-card {
+    padding: 8px;
+  }
+
+  .dashboard-card .MuiTypography-h6 {
+    font-size: 1rem; /* Smaller font size for mobile screens */
+  }
+
+  .dashboard-card .MuiTypography-subtitle2 {
+    font-size: 0.75rem; /* Smaller font size for mobile screens */
+  }
+
+  .dashboard-card .MuiTypography-body2 {
+    font-size: 0.625rem; /* Smaller font size for mobile screens */
+  }
+
+  .tab-content {
+    padding: 8px;
+  }
+}

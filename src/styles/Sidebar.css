@@ -1,0 +1,100 @@
+/* src/styles/Sidebar.css */
+.sidebar {
+  width: 240px;
+  background: #1C252E;
+  color: #fff;
+  height: 100vh;
+  position: fixed;
+  transition: transform 0.3s ease, width 0.3s ease;
+  transform: translateX(0); /* Sidebar is visible by default */
+}
+
+.sidebar.hidden {
+  transform: translateX(-100%); /* Hide sidebar off-screen */
+}
+
+.sidebar.open {
+  transform: translateX(0); /* Show sidebar when open */
+}
+
+.sidebar-header {
+  padding: 13px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  background: #1C252E;
+  border-top: 2px solid #22C55E;
+}
+
+.list-item {
+  display: flex !important; /* Use flexbox for alignment */
+  align-items: center !important; /* Center items vertically */
+  margin-left: 10px !important;
+  padding: 8px 20px !important; /* Add more padding for better spacing */
+  transition: background 0.3s, transform 0.3s;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-item:hover {
+  background: #141A21 !important; /* Use !important to force background color change */
+  transform: scale(1);
+  width: 90%;
+  border-radius: 3px;
+}
+
+.list-item.active {
+  background: #11312e; /* Color for the active item */
+  color: #00A76F !important; /* Change text color for active item */
+  width: 90%;
+  border-radius: 3px;
+}
+
+.list-item.active .MuiListItemText-primary {
+  color: #00A76F !important; /* Ensure text color changes for active item */
+}
+
+/* Icon color for active menu items */
+.list-item.active .list-item-icon {
+  color: #00A76F !important; /* Change icon color for active item */
+}
+
+.list-item-icon {
+  color: #919EAB !important;
+  min-width: 34px !important; /* Ensure consistent icon spacing */
+  font-size: 16px !important; /* Adjust icon size */
+}
+
+.list-item .MuiListItemText-primary {
+  color: #919EAB;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.57143;
+}
+
+.mobile-menu-button {
+  position: fixed !important;
+  top: 12px;
+  left: 225px;
+  z-index: 1200;
+  width: 30px; /* Width of the circle */
+  height: 30px; /* Height of the circle */
+  border-radius: 50%; /* Makes it a circle */
+  background-color: #fff !important; /* Background color of the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-menu-button:hover {
+  background-color: #919EAB; /* Change background color on hover */
+}
+
+.mobile-menu-button .MuiSvgIcon-root {
+  color: #919EAB; /* Icon color */
+}
