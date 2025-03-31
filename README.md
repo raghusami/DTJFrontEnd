@@ -28,7 +28,15 @@ Run the following command to clone the project:
 git clone https://github.com/raghusami/DTJFrontEnd.git
 cd DTJFrontEnd
 
-### 2️⃣ Install Dependencies
-Run the following command to install all required dependencies:
-```bash
+Install Dependencies
 npm install
+
+Set Up Environment Variables
+REACT_APP_API_BASE_URL=http://localhost:5000/api
+
+Run the Development Server
+npm run dev
+
+Access the Web App
+http://localhost:5173
+
