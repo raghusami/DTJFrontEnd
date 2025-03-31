@@ -28,4 +28,7 @@ Run the following command to clone the project:
 git clone https://github.com/raghusami/DTJFrontEnd.git
 cd DTJFrontEnd
 
-
+### 2️⃣ Install Dependencies
+Run the following command to install all required dependencies:
+```bash
+npm install
