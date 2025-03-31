@@ -27,16 +27,25 @@ Run the following command to clone the project:
 ```bash
 git clone https://github.com/raghusami/DTJFrontEnd.git
 cd DTJFrontEnd
-
-Install Dependencies
+```
+### 2️⃣ Install Dependencies:
+```bash
 npm install
-
-Set Up Environment Variables
+```
+### 3️⃣ Set Up Environment Variables :
+```bash
 REACT_APP_API_BASE_URL=http://localhost:5000/api
-
-Run the Development Server
+```
+### 4️⃣ Run the Development Server
+```bash
 npm run dev
-
-Access the Web App
+```
+### 5️⃣ Access the Web App
+```bash
 http://localhost:5173
+```
+## ⭐ Star the Repository!
+If you find this project useful, **give it a star ⭐ on GitHub!**
 
+---
+📌 **Created by [Raghu](https://github.com/raghusami)**
